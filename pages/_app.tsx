@@ -1,7 +1,6 @@
-import "../styles/globals.css";
-import type { AppProps } from "next/app";
-import { Hydrate, QueryClientProvider } from "react-query";
-import { queryClient } from "../src/api";
+import '../styles/globals.css';
+import { Hydrate, QueryClientProvider } from 'react-query';
+import { queryClient } from '../src/api';
 
 function MyApp({ Component, pageProps }: any) {
   return (
