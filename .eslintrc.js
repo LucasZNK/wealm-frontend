@@ -22,7 +22,7 @@ module.exports = {
   plugins: ['@typescript-eslint', 'prettier'],
   rules: {
     '@typescript-eslint/no-unused-vars': 'error',
-    // 'no-unused-vars': 'off',
+    'no-unused-vars': 1,
     'react/jsx-filename-extension': [1, { extensions: ['.tsx', '.ts'] }],
     'no-undef': 'off',
     'no-use-before-define': 'off',
@@ -42,5 +42,5 @@ module.exports = {
       },
     ],
   },
-  // ignorePatterns: ['src/generated/*'],
+  ignorePatterns: ['src/generated/*'],
 };
