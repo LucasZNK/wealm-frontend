@@ -1,0 +1,13 @@
+query findAll {
+  findAll {
+    username
+  }
+}
+
+query getInvestment {
+  getInvestment {
+    title
+    description
+    _id
+  }
+}
