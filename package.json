@@ -8,6 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "codegen": "graphql-codegen --config codegen.yml",
+    "lint:fix": "npm run lint -- --fix",
+    "pre-commit-lint": "yarn check-types && yarn lint-staged",
+    "check-types": "tsc-files --pretty --noEmit",
     "prepare": "husky install"
   },
   "dependencies": {
