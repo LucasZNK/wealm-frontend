@@ -3,7 +3,7 @@ import { Hydrate, QueryClientProvider } from 'react-query';
 import { queryClient } from '../src/api';
 
 function MyApp({ Component, pageProps }: any) {
-  const t = '';
+  const t = '1';
   return (
     <QueryClientProvider client={queryClient}>
       <Hydrate state={pageProps.dehydratedState}>
