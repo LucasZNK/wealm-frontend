@@ -42,5 +42,5 @@ module.exports = {
       },
     ],
   },
-  ignorePatterns: ['src/generated/*'],
+  // ignorePatterns: ['src/generated/*'],
 };
